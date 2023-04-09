@@ -1,0 +1,13 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (width<585px) {
+    .wrapper{
+    justify-content: space-evenly;
+    padding: 2rem;
+    }
+}
